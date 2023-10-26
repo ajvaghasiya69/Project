@@ -1,0 +1,389 @@
+ *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .sec1{
+            background-image: url(../Project/Sushifinalpic/bg1.png);
+            background-size: cover;
+        }
+        .nav{
+            background-color: #21243d;
+            display: flex;
+            justify-content: space-between;
+           
+        }
+        ul{
+            list-style: none;
+            font-size: 25px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Montserrat";
+display: inline-flex;
+padding: 20px;
+
+        }
+        .logo{
+            padding: 10px 0px 10px 40px;
+           
+        }
+        li{
+            padding-left: 40px;
+        }
+        .search{
+            padding: 25px 40px 20px 0px;
+           
+        }
+        h1{
+            font-size: 125px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Montserrat";
+text-align: center;
+        }
+        .part1{
+            width: 50%;
+            padding-top: 100px;
+            padding-bottom: 40px;
+            
+        }
+        
+        .subtext{
+            font-size: 30px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Montserrat";
+text-align: center;
+padding-top: 5px;
+
+        }
+        .button{
+            font-size: 20px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 700;
+font-family: "Montserrat";
+text-align: center;
+border-radius: 33px;
+background-color: #21243d;
+width: 222px;
+height: 55px;
+border: 1px solid #21243d;
+margin: 30px 0px 100px 100px;
+        }
+        .sec2{
+            background-color: #21243d;
+            position: relative;
+            overflow: hidden;
+            
+        }
+        h2{
+            font-size: 64px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Montserrat";
+text-align: center;
+padding-top: 70px;
+        }
+        .card{
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+            gap: 60px;
+            padding-bottom: 70px;
+          
+        }
+        .img{
+            height: 260px;
+            width: 260px;
+            border-radius: 130px;
+            
+        }
+        #dish{
+            font-size: 17px;
+            margin-top: 5px;
+            
+        }
+        .shape1{
+            position: absolute;
+            left: -50px;
+            bottom: 80px;
+        }
+        .shape2{
+            position: absolute;
+            right: 0px;
+            bottom: 50px;
+        }
+        .shape3{
+            position: absolute;
+            left: 100px;
+            top: 200px;
+        }
+        .shape4{
+            position: absolute;
+           right: -20px;
+            top: 270px;
+        }
+        .shape5{
+            position: absolute;
+          top: -20px;
+          left: 200px;
+        }
+        .shape6{
+            position: absolute;
+          top: -40px;
+          right: -40px;
+        }
+        .sec3{
+            background-color: #ffd17e;
+            position: relative;
+            display: flex;
+            justify-content: space-evenly;
+            padding-top: 100px;
+            padding-bottom: 100px;
+            overflow: hidden;
+           
+        }
+        .item{
+            height: 360px;
+            width: 360px;
+            border-radius: 180px;
+            
+        }
+        .title{
+            font-size: 75px;
+color: #21243d;
+font-weight: 700;
+font-family: "Montserrat";
+padding-top: 100px;
+        }
+        .subtitle{
+            font-size: 30px;
+color: #21243d;
+font-weight: 400;
+font-family: "Montserrat";
+        }
+        #batan{
+            margin: 20px 0px 0px 0px;
+        }
+        .par1{
+            margin-top: 50px;
+            margin-bottom: 50px;
+            z-index: 1;
+           
+        }
+        .design1{
+            position: absolute;
+            bottom: 50px;
+            left: 30px;
+        }
+        .design2{
+            position: absolute;
+            right: 20px;
+            top: 30px;
+        }
+        .design3{
+            position: absolute;
+            right: -40px;
+            bottom: 50px;
+        }
+        .design4{
+            position: absolute;
+            right: 570px;
+            top: 150px;
+        }
+        .design5{
+            position: absolute;
+            top: 100px;
+            left: 100px;
+            
+        }
+        .card1{
+            width: 274px;
+height: 275px;
+border-radius: 138px;
+background-color: #21243d;
+border: 5px solid #ffffff;
+margin-top: 20px;
+margin-bottom: 50px;
+        }
+        .digit{
+            font-size: 75px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 700;
+font-family: "Montserrat";
+text-align: center;
+padding-top: 60px;
+        }
+        .digittitle{
+            width: 537px;
+height: 210px;
+font-size: 42px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 700;
+font-family: "Montserrat";
+margin-left: 80px;
+
+        }
+        .d1{
+            position: absolute;
+            bottom: -80px;
+            left: 380px;
+        }
+        .d2{
+            position: absolute;
+            bottom: 50px;
+            right: 70px;
+        }
+        .d3{
+            position: absolute;
+            top: 200px;
+            left: 160px;
+        }
+        .d4{
+            position: absolute;
+            bottom: 20px;
+            right: 400px;
+        }
+        .d5{
+            position: absolute;
+            left: 50px;
+     top: 40px;
+        }
+        .d6{
+            position: absolute;
+            right: 100px;
+     top: 40px;
+        }
+        .patern1{
+            position: absolute;
+            top: 30px;
+            left: 500px;
+        }
+          .patern2{
+            position: absolute;
+            bottom: 20px;
+            right: 30px;
+        }
+        .patern3{
+            position: absolute;
+            top: 150px;
+            left: 160px;
+        }
+        .patern4{
+            position: absolute;
+            bottom: 10px;
+            left: 560px;
+        }
+        .patern5{
+            position: absolute;
+            top: 100px;
+            right: 100px;
+        }
+        .sec4{
+            background-color: #21243d;
+            position: relative;
+        }
+        .bai{
+           margin-left: 40%;
+           padding-top: 100px;
+           padding-bottom: 20px;
+        }
+        #name{
+            font-size: 45px;
+            padding-top: 20px;
+            padding-bottom: 100px;
+        }
+        .sec5{
+            background-color: #ffd17e;
+            text-align: center;
+            position: relative;
+            padding-bottom: 100px;
+            padding-top: 20px;
+            overflow: hidden;
+        }
+        input{
+            width: 500px;
+            height: 55px;
+            border: 1px solid #ffd17e;
+            border-radius: 30px;
+          background-color: #ffffff;
+font-size: 25px;
+color: #000000;
+font-weight: 400;
+font-family: "Montserrat";
+padding-left: 20px;
+
+
+
+        }
+        #subscribe{
+          margin: 30px 50px 100px -50px;
+        }
+        form{
+            padding-bottom: 100px;
+        }
+        .decoration1{
+            position: absolute;
+            bottom: 30px;
+            left: 570px;
+        }
+        .decoration2{
+            position: absolute;
+            top: 70px;
+            right: 250px;
+        }
+        .decoration3{
+            position: absolute;
+            left: 70px;
+            bottom: 100px;
+        }
+        .decoration4{
+            position: absolute;
+            right: 100px;
+            bottom: 60px;
+        }
+        .decoration5{
+            position: absolute;
+            left: 80px;
+            top: 60px;
+        }
+        .decoration6{
+            position: absolute;
+            right: -30px;
+            top: 20px;
+        }
+        .footer{
+        background-color: #111111;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 100px;
+      
+       }
+    .ssb{
+        font-size: 20px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Montserrat";
+padding-top: 10px;
+line-height: 20px;
+
+    }
+
+    .icon{
+        margin-bottom: 100px;
+        padding-top: 20px;
+    }
+    li{
+        list-style: none;
+        padding-top: 10px;
+    }
+    .heading{
+        text-align: left;
+    }
+    .head{
+        padding-left: 40px;
+    }
+  

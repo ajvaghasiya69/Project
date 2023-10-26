@@ -1,0 +1,292 @@
+ @media (max-width: 912px){
+        .logo{
+            padding-left: 20px;
+        }
+        
+
+
+        ul{
+            padding: 10px;
+            padding-top: 15px;
+        }
+        .search{
+            padding-left: 10px;
+            padding-top: 25px;
+            padding-right: 10px;
+        }
+        .part1{
+            width: 100%;
+        }
+        .button{
+           margin-left: 35%;
+        }
+        .subtext{
+            font-size: 25px;
+        }
+        .shape1{
+            display: none;
+        }
+        .shape4{
+            display: none;
+        }
+        .shape2{
+            position: absolute;
+            left: 410px;
+            bottom: 20px;
+        }
+        .design5{
+            position: absolute;
+            top: -50px;
+            left: -50px;
+        }
+        .design4{
+            position: absolute;
+            top: 170px;
+          left: 390px;
+        }
+        .card{
+            gap: 30px;
+        }
+        .d6{
+            top: -40px;
+            right: -40px;
+
+        }
+        .d1{
+            left: -60px;
+            bottom: -60px;
+
+        }
+        .d4{
+           bottom: 10px;
+           left: 370px;
+
+        }
+        .d3{
+            top: 250px;
+            left: 250px;
+        }
+        .patern3{
+           top: 170px;
+           left: 30px;
+        }
+        .patern4{
+            left: 250px;
+            bottom: -60px;
+        }
+        .patern5{
+            top: 100px;
+            right: 30px;
+        }
+        .bai{
+            margin-left: 35%;
+        }
+        .decoration6{
+            right: -60px;
+            top: -60px;
+        }
+        .decoration1{
+            position: absolute;
+            bottom: 30px;
+            left: 380px;
+        }
+        .decoration2{
+            position: absolute;
+            top: 90px;
+            right: 400px;
+        }
+        .head{
+        padding-left: 30px;
+    }
+
+    }
+    @media (max-width: 768px){
+
+        .ul{
+            list-style: none;
+            font-size: 20px;
+color: #ffffff;
+font-weight: 300;
+font-family: "Montserrat";
+display: inline-flex;
+padding: 20px;
+
+        }
+        li{
+            padding-left: 30px;
+        }
+        
+        .subtext{
+            font-size: 30px;
+        }
+        .card{
+
+            flex-wrap: wrap;
+            gap: 60px;
+        }
+       
+        .shape2{
+            position: absolute;
+           left: 330px;
+            bottom: 30px;
+        }
+        .shape3{
+           
+            left: 330px;
+            top: 280px;
+        }
+        .shape5{
+            position: absolute;
+          top: -20px;
+          left: 80px;
+        }
+        .sec3{
+            flex-direction: column;
+            padding-left: 27%;
+          
+        }
+        .title{
+            padding-top: 0px;
+           padding-left: 10px;
+        }
+        .par1{
+            margin-top: 0px;
+        }
+        .par2{
+           z-index: 1;
+        }
+        .design3{
+            position: absolute;
+            right: -40px;
+            bottom: 300px;
+        }
+        .d4{
+            position: absolute;
+            bottom: 430px;
+            left: 300px;
+        }
+        .d3{
+           
+            top: 250px;
+            left: 330px;
+        }
+        .patern4{
+            position: absolute;
+            bottom: -60px;
+            left: -60px;
+        }
+        .patern5{
+            position: absolute;
+            top: 400px;
+            right: 150px;
+        }
+        .subtitle{
+            font-size: 25px;
+        }
+        .decoration5{
+        display: none;
+        }
+        .decoration1{
+            position: absolute;
+            bottom: 30px;
+            left: 270px;
+        }
+        .decoration2{
+           display: none;
+        }
+        .ssb{
+           font-size: 18px; 
+        }
+        .sec5{
+            padding-top: 70px;
+        }
+        input{
+            margin-left: 30px;
+        }
+        #batan{
+            margin-left: 50px;
+        }
+    }
+    @media (max-width: 576px){
+        .ul{
+            display: none;
+        }
+        .button{
+          
+        }
+        .subtext{
+            font-size: 20px;
+        }
+        .shape6{
+            position: absolute;
+          top: -80px;
+          right: -80px;
+        }
+        .shape3{
+            position: absolute;
+            left: 60px;
+            top: 370px;
+            rotate: 90deg;
+        }
+        .shape2{
+            position: absolute;
+            right: 0px;
+            bottom: 190px;
+            rotate: 90deg;
+        }
+        .subtitle{
+            font-size: 20px;
+        }
+        .item{
+       margin-left: -30px;
+        }
+       
+       .card1{
+margin-top: -10px;
+       }
+       .d3{
+            position: absolute;
+            top: 330px;
+            left: 60px;
+            rotate: 90deg;
+        }
+        .d5{
+            position: absolute;
+            left: 10px;
+     top: -10px;
+        }
+        .d4{
+            position: absolute;
+            bottom: 650px;
+           left: 500px;
+           rotate: 90deg;
+          
+        }
+        input{
+            margin-top: 30px;
+        }
+        .sec5{
+            padding-top: 100px;
+        }
+        #subscribe{
+            margin-left: 50px;
+        }
+        .decoration1{
+          display: none;
+        }
+        .footer{
+           flex-wrap: wrap;
+        }
+        .col1{
+            width: 100%;
+            text-align: center;
+        }
+        .heading{
+            
+            text-align: center;
+        }
+        .head{
+            
+            text-align: left;
+        }
+    }
