@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Reddy Leboratory</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+       
+       
+    }
+   
+    .navbar{
+        display: flex;
+    }
+    .logo{
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+    ul li{
+        list-style-type: none;
+        
+        display: inline-flex;
+        color: gray;
+       font-weight: 500;
+       padding-top: 40px;
+     margin-left: 40px;
+
+    }
+    .glass, .globe{
+      font-size: 25px;
+     color: #5023B4;
+      padding-top: 40px;
+      padding-left: 10px;
+    }
+    .list{
+      margin-left: 200px;
+      padding-left: 100px;
+     font-family: sans-serif;
+     font-weight: 500;
+    }
+    .list2{
+        margin-left: 60px;
+        font-family: sans-serif;
+    font-weight: 600;
+    }
+    ul li:hover{
+        border-bottom: 2px solid red;
+    }
+    .headimg{
+        margin-top: 50px;
+        overflow: hidden;
+    }
+    .women{
+        margin-left: 100px;
+        padding-left: 50px;
+        margin-top: 100px;
+    }
+    .part{
+        display: flex;
+        position: relative;
+    }
+    .des, .des1, .des2{
+        font-size: 20px;
+        margin: 100px 50px 100px 50px ;
+    }
+    .des2{
+        margin: 50px;
+    }
+    .arrow{
+        font-size: 50px;
+        color: #5023B4;
+        margin-top: 48%;
+        position: absolute;
+        right: 470px;
+        height: 50px;
+     
+        
+    }
+    .arrow:hover{
+       
+      padding: 2%;
+       height: 100px;
+       width: 100px;
+        border-radius: 50px;
+        background-color: #5023B4;
+        color: white;
+       
+      
+      
+      
+    }
+    
+    .sec{
+      background-image: url(../Dr.Reddy/Image/Mask-Group-432x\ 2.jpg);
+      background-blend-mode: darken;
+      background-size: cover;
+      background-color: rgba(0, 0, 0, 0.5);
+      margin-top: 100px;
+      padding-bottom: 100px;
+    }
+    .des12{
+       color: white;
+        text-align: center;
+        padding-top: 100px;
+    }
+    .number{
+        font-size: 120px;
+        color: white;
+        margin-top: 50px;
+       
+    }
+    .digit{
+        display: flex;
+        justify-content: center;
+        gap: 150px;
+    }
+    .value{
+        display: flex;
+        justify-content: center;
+        gap: 250px;
+    }
+    .v1{
+        font-size: 20px;
+        color: white;
+        
+    }
+    #healthcon{
+      margin: 0px;
+      
+    }
+    #v2{
+      padding-left: 0px;
+      
+    }
+    .valu1{
+    gap: 500px;
+    }
+    .goodimg{
+        margin-top: 100px;
+        margin-left: 100px;
+    }
+    h1{
+        margin-top: 200px;
+        padding-top: 100px;
+       
+        margin-left: 50px;
+        font-weight: 200;
+
+    }
+    .arrow2{
+        margin-top: 50%;
+    }
+    .flex{
+        margin-top: 70px;
+        background-color: #f2f4f6;
+        margin-bottom: 50px;
+    }
+    .h2{
+        margin-left: 90px;
+       padding-top: 50px;
+    
+       font-size: 40px;
+       font-weight: 300;
+    }
+    .hr{
+        
+       margin: 20px auto;
+        border: 0.5px solid red;
+        width: 1180px;
+    }
+    .photo{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 30px;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    .a{
+        color: black;
+        display: block;
+       text-decoration: none;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        
+    }
+     .p{
+        line-height: 30px;
+        color: gray;
+        padding-bottom: 50px;
+    } 
+    .h3{
+        text-align: center;
+        margin-left: 0px;
+    }
+    .flex2{
+        display: flex;
+        justify-content: center;
+        gap: 60px;
+        margin-top: 40px;
+        color: gray;
+        
+    }
+    .b{
+        color: gray;
+        text-decoration: none;
+    }
+    .b:hover, .a:hover{
+        color: blue;
+    }
+    .h4{
+       padding-left: 50px;
+    }
+    .hr2{
+        width: 1070px;
+    }
+    .weare{
+        padding-bottom: 50px;
+    }
+    .news{
+        display: flex;
+        margin-bottom: 70px;
+     
+    }
+    .newsimg{
+        margin-left: 100px;
+        padding-left: 38px;
+    }
+    .hrn{
+        width: 270px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    .hrv{
+       border: 1px solid red;
+       margin-left: 10px;
+    }
+    .footer{
+        background-color: black;
+        position: relative;
+        padding-bottom: 30px;
+    }
+    .h5{
+        color: white;
+        font-size: 20px;
+        
+    }
+    .footerlist{
+        color: white;
+        margin-top: 20px;
+        
+    }
+    .footli{
+        padding-top: 15px;
+    }
+    li{
+        line-height: 30px;
+        list-style-type: none;
+    }
+    .col{
+        display: flex;
+        justify-content: space-around;
+        padding: 50px;
+    }
+    ol li:hover{
+        display: inline;
+        border-bottom: 1px solid white;
+      
+    
+    }
+    .footlogo{
+        position: absolute;
+        right: 80px;
+        top: 300px;
+
+    }
+    .flist li{
+        color: white;
+        display: inline-flex;
+       
+        margin: 10px 0px 10px 40px;
+       
+    }
+    .flist li:hover{
+        border-bottom: 1px solid white;
+    }
+    .flist{
+        margin-left: 48%;
+    }
+    .foothr{
+        width: 1200px;
+        margin: 00 auto;
+    }
+    .flastlist li{
+color: white;
+display: inline-flex;
+margin-left: 15px;
+margin-top: 20px;
+font-size: 12px;
+font-weight: 200;
+
+
+
+    }
+    .flastlist li:hover{
+        border-bottom: 1px solid white;
+    }
+    .footlastline{
+        font-size: 12px;
+        color: white;
+        margin-left: 70px;
+        margin-top: 10px;
+    }
+    i{
+        font-size: 25px;
+        color: white;
+        padding-left: 30px;
+    }
+    .flastlist{
+        margin-left: 30px;
+    }
+    .social{
+        margin-left: 28%;
+    }
+    .back{
+        height: 40px;
+        width: 120px;
+        background-color: gray;
+        border-radius: 20px 0px 0px 20px;
+        margin-left: 91%;
+        padding-top: 10px;
+        padding-left: 20px;
+        
+    }
+    .back a{
+        color: black;
+        text-decoration: none;
+    }
+   
+    
+   
+    
+  
+ 
+    
+   
+</style>
+<body>
+    <div class="navbar">
+        <div class="logo"><img src="../Dr.Reddy/Image/logo.png" alt="" width="150px"></div>
+      <div class="list">
+        <ul>
+            <li>INVESTOR</li>
+            <li>MEDIA</li>
+            <li>PARTNER</li>
+            <li>CAREERS</li>
+            <li>CONTACT US</li>
+        </ul>
+      </div>
+     <div class="icon">
+     <i class="glass">|</i>
+        <i class="fa-solid fa-globe globe">
+       
+
+
+
+
+        </i>
+        <i class="fa-solid fa-magnifying-glass glass"></i>
+        
+  
+     </div>
+     
+
+    </div>
+    <ul class="list2">
+        <li>Home</li>
+        <li>Who We Are</li>
+        <li>Our Businesses</li>
+        <li>Sustainibility</li>
+        <li>Life at Dr. Reddy's</li>
+    </ul>
+    <img class="headimg" src="../Dr.Reddy/Image/headerimage.png" alt="" width="100%">
+    <div class="part"><img class="women" src="../Dr.Reddy/Image/women.png" alt="">
+    <div class="des"> <p class="des1">We are committed to providing access to affordable and innovative medicines, driven by our purpose of ‘Good Health Can’t Wait’.</p>
+        <p class="des2">Our products and services are spread across our core businesses of Active Pharmaceutical Ingredients (API), generics, branded generics, biosimilars and over-the-counter pharmaceutical products around the world. We work towards meeting unmet patients needs in the areas of gastro-enterology, cardiovascular, diabetology, oncology, pain management and dermatology. We are investing in businesses of the future including drug discovery, clinically-differentiated assets and digital healthcare.</p>
+        </div>
+        <i class="fa-solid fa-arrow-right-long arrow"></i>
+        
+    
+    </div>
+    <div class="sec">
+        <p class="des1 des12" id="healthcon"> We started in 1984 with a modest investment and a bold vision. <br>
+            Today, with research and development centres, manufacturing facilities and commercial <br>
+            presence across the globe, we serve over half a billion patients worldwide. We aspire to <br>
+            triple our reach and touch over 1.5 billion patients by 2030.</p>
+            <div class="digit">
+               <p class="number">74</p>
+                <p class="number">53</p>
+                <p class="number num"><span class="v1">USD bn</span>2.99 </p></div>
+                <div class="value">
+                    <p class="v1">Countries
+                    </p>
+                    <p class="v1">Nationalities</p>
+                    <p class="v1">Revanue(As of FY '23)</p>
+                </div>
+                <div class="digit">
+                    <p class="number">29.7%</p>
+                    <p class="number num"><span class="v1"></span>~25,000 </p></div>
+                    <div class="value valu1">
+                        <p class="v1">EBITDA(As of FY '23)
+                        </p>
+                        
+                        <p class="v1">employee</p>
+                    </div>
+            
+    </div>
+    <div class="part"><img class="women" src="../Dr.Reddy/Image/goodhealth.png" alt="">
+        <div class="des"><h1>Good Health Can't <br>Wait</h1>
+            <p class="des2">Our purpose is to provide access to affordable and innovative medicines and healthcare solutions. Read more about our purpose, principles and values.</p>
+            </div>
+            <i class="fa-solid fa-arrow-right-long arrow arrow2"></i>
+            
+        
+        </div>
+        <div class="flex">
+            <h2 class="h2">Our core tenets</h2>
+            <hr class="hr">
+            <div class="photo">
+                <div class="photo1"><img src="../Dr.Reddy/Image/deep-science.png" alt=""><br>
+                    <a href="#" class="a"><b>Pioneering work based on science </b></a>
+                <p class="p">Our deep science capabilities form the bedrock of our work enabling us to innovate for patients. Our investment in complex chemistry and biology have led us to several firsts. In India, we were among the first to export APIs at scale and introduce many new molecules. We were the first in India to initiate novel drug discovery in the 1990s and to receive 180-day exclusivity from the USFDA in the 2000s. We focus on being first to market, helping us deliver on our promises.</p>
+                </div>
+                <div class="photo1"><img src="../Dr.Reddy/Image/ground-group-growth-hands-461049.png" alt=""><br>
+                    <a href="#" class="a"><b>Progresive People Prectice</b></a>
+                    <p class="p">We have pioneered practices such as ‘Self-Managed Teams’ in pharma. We develop leaders through our initiatives such as our ‘New Horizons Leadership Programme’. Our investment in people capabilities serves not just our company but also the industry. We have set bold goals for ourselves in our diversity, equity and inclusion journey. We aspire to create an environment in which people can realise their full potential through work and continuous learning.</p>
+                </div>
+                <div class="photo1"><img src="../Dr.Reddy/Image/home-page-image-21.png" alt=""><br>
+                    <a href="#" class="a"><b>Rigour in Goverance</b></a>
+                    <p class="p">We were the first Asian pharma company outside Japan to list on the New York Stock Exchange in 2001. We are committed to the highest standards of compliance, ethics and quality in every activity that we undertake. We are consistently recognised by our stakeholders for our governance. We endeavour to set the bar high and maintain the trust our stakeholders repose in us. We continue to work on progressive and timely disclosures, transparent policies and processes.</p>
+                </div>
+            </div>
+            
+        </div>
+        <h2 class="h2 h3">Our current ESG goals</h2>
+        <div class="flex2">
+             <a href="part1.html" class="b" target="content"><b>Being committed to <br>environmental <br>stewardship</b></a>
+             
+            <a href="part2.html" class="b" target="content"><b>Making our Product accessible <br>and affordable to patients</b></a>
+            <a href="part3.html" class="b" target="content"><b>Contributing to a fair and <br>more socially inclusive world</b></a>
+            <a href="part4.html" class="b" target="content"><b>Enhancing trust with <br>our stackholder</b></a>
+        </div>
+        <hr class="hr hr2">
+        <iframe src="" frameborder="0" name="content" width="100%" height="500px"></iframe>
+      <div class="flex weare">
+        <h2 class="h2 h4">#WeAreDrReddys</h2>
+        <hr class="hr hr2">
+           <div class="photo">
+            <div class="photo1"><img src="../Dr.Reddy/Image/Screenshot (102).png" alt=""><br>
+                <a href="#" class="a"><b>Launch of direct-to-consumer e- <br>commerce websight 'Celevida Wellness'<br>for diabetes</b></a>
+            
+            </div>
+            <div class="photo1"><img src="../Dr.Reddy/Image/Screenshot (103).png" alt=""><br>
+            <a href="#" class="a"><b>NJ Best Place to Work</b></a></div>
+            <div class="photo1"><img src="../Dr.Reddy/Image/Screenshot (104).png" alt=""><br>
+            <a href="#" class="a">
+                <b>Celebration of Excellence of 2024</b>
+            </a>
+        </div>
+           </div>
+      </div>
+      <h2 class="h2 h4">Letest News</h2>
+      <hr class="hr hr2">
+      <div class="news">
+        <div class="par">
+            <img class="newsimg" src="../Dr.Reddy/Image/Mask-Group-15-p-800.png" alt="" width="80%">
+        </div>
+        <div class="par">
+            <b>From GERD: it Could be Your <br>Lifestyle</b>
+            <hr class="hr hrn">
+            <b>AN EYE FOR BRID (On Co- <br>Chairman & MD, G V Prasad <br>Book)</b>
+            <hr class="hr hrn">
+            <b>Three-day Asia-Pacific Regional <br>Conference</b>
+            <hr class="hr hrn">
+            <b>Hyderabad: Three-day '4 per <br>1000' Asia-Pacific Regional <br>Conference at Kanha Shanti <br>Vaman</b>
+            <hr class="hr hrn">
+        </div>
+        <hr class="hrv">
+     
+      </div>
+      <div class="footer">
+        <div class="col">
+            <div class="col1">
+                <h5 class="h5">HOME</h5>
+                <ol class="footerlist">
+                    <li>About Us</li>
+                    <li>Building a Sustainable Future</li>
+                    <li>#WeAreDrReddys</li>
+                    <li>Letest News</li>
+                </ol>
+            </div>
+            <div class="col1">
+                <h5 class="h5">WHO WE ARE</h5>
+                <ol class="footerlist">
+                    <li>Purpose</li>
+                    <li>Promise</li>
+                    <li>Principles</li>
+                    <li>Value</li>
+                    <li>Leadership</li>
+                    <li>Our Founder</li>
+                    <li>Our Journey</li>
+                </ol>
+            </div>
+            <div class="col1">
+                <h5 class="h5">OUR BUSSINESS</h5>
+                <ol class="footerlist">
+                    <li>Our Bussiness</li>
+                    <li>Our Capabilities</li>
+                    <li>Stories</li>
+                    <li>Jobs</li>
+                    <li>Contact Us</li>
+                 
+                  
+                </ol>
+            </div>
+            <div class="col1">
+                <h5 class="h5">SUSTAINIBILITY</h5>
+                <ol class="footerlist">
+                    <li>Milestones</li>
+                    <li>Our ESG Goals</li>
+                    <li>Report and Disclosures</li>
+                    <li>Community Initiative</li>
+                    <li>Employee Volunteering</li>
+                 
+                  
+                </ol>
+            </div>
+            <div class="col1">
+                <h5 class="h5">LIFE AT DR. REDDY'S</h5>
+                <ol class="footerlist">
+                    <li>Our Culture</li>
+                    <li>ASPIRE Framwork</li>
+                    <li>Our People</li>
+                    <li>Capability Building Program</li>
+                    <li>Work with Us</li>
+                 
+                  
+                </ol>
+            </div>
+          
+        </div>
+        <div class="footlogo"><img src="../Dr.Reddy/Image/Dr._Reddys_Laboratories_Logo white.svg" alt=""></div>
+        <hr class="foothr">
+         
+           <div class="flist">
+             <li>INVESTOR</li>
+            <li>MEDIA</li>
+            <li>PARTNER</li>
+            <li>CAREERS</li>
+            <li>CONTACT US</li>
+           </div>
+      
+        <hr class="foothr">
+        <div class="flastlist">
+            <div class="flastlist">
+                <li>Terms of Use</li>
+           <li>Privacy Notice</li>
+           <li>Accessibility</li>
+           <li>Cookie Policy</li>
+           <li>Caution Notice-"Recruitment Fraud"</li>
+           <span class="social">
+            <i class="fa-brands fa-facebook-f"></i>
+           <i class="fa-brands fa-linkedin"></i>
+        
+           <i class="fa-brands fa-twitter"></i>
+           <i class="fa-brands fa-instagram"></i>
+           <i class="fa-brands fa-youtube"></i>
+           </span>
+            </div>
+
+          </div>
+          
+          <div class="footlastline">&copy; 2023 Dr.Reddy's Laboratories Ltd. All right reserved.</div>
+     
+        <div class="back"><a href="#">Back to Top</a></div>
+
+      </div>
+</body>
+</html>
