@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .main{
-    background-image: url(../project/psdpic/burgermain.png) ;
+    background-image: url(../Burger/psdpic/headbgimg.jpg) ;
     background-size: cover;
     background-blend-mode: darken;
 }
@@ -73,7 +73,7 @@ margin-left: 30px;
 }
 .sec1{
     background-color: #f6eedf;
-    background-image: url(../Task/psdpic/Design.png);
+    background-image: url(../Burger/psdpic/Design.png);
     background-size: cover;
    
 }
@@ -220,7 +220,7 @@ background-color: #f64b3c;
     top: 80px;
 }
 .sec4{
-    background-image: url(../Task/psdpic/Background\ \(1\).png);
+    background-image: url(../Burger/psdpic/Background\ \(1\).png);
  }
 .h4{
     font-size: 62px;
@@ -274,7 +274,7 @@ padding-top: 60px;
 }
 .sec5{
     background-color: #f6eedf;
-    background-image: url(../Task/psdpic/d1.png);
+    background-image: url(../Burger/psdpic/d1.png);
     background-size: cover;
 }
 .po{
@@ -292,7 +292,7 @@ justify-content: space-around;
 padding-bottom: 60px;
 } 
 .ss1{
-    background-image: url(../Task/psdpic/s5.png);
+    background-image: url(../Burger/psdpic/s5.png);
     background-repeat: no-repeat;
     
 }   
@@ -338,7 +338,7 @@ margin-left: 70px;
 margin-top: 20px;
 }
 .sec6{
-background-image: url(../Task/psdpic/chamchi.png);
+background-image: url(../Burger/psdpic/chamchi.png);
 }
 .pn{
 font-size: 20px;
@@ -452,7 +452,7 @@ margin-top: 20px;
 padding-bottom: 160px;
 }
 .foot{
-background-image: url(../Task/psdpic/foot.png);
+background-image: url(../Burger/psdpic/foot.png);
 display: flex;
 justify-content: center;
 }
@@ -490,8 +490,104 @@ font-family: "Archivo";
 padding-bottom: 20px;
 padding-top: 100px;
 }
+@media (max-width: 992px){
 
+    .cpi{
+        flex-wrap: wrap;
+    }
+    .cpi3{
+        margin-left: 250px;
+        padding-bottom: 50px;
+    }
+    .par2{
+      padding-top: 50px;
+    }
+    .bu1{
+        z-index: 1;
+    }
+    .email{
+        position: relative;
+        left: 240px;
+    }
+    .button{
+        position: relative;
+        left: 200px;
+    }
+    .bb3{
+        position: absolute;
+        left: 450px;
+    }
+  .b7{
+    position: absolute;
+    left: 420px;
+  }
+
+@media (max-width: 768px){
+
+li{
+   padding-left: 30px;
+}
+.cpi{
+    flex-wrap: wrap;
+    margin-left: 0px;
+}
+.cpi3{
+    margin-left: 250px;
+    padding-bottom: 70px;
+}
+.sec2{
+    flex-wrap: wrap;
+
+}
+.par2{
+    padding-top: 0px;
+
+    
+}
+.bb2{
+    margin-top: 0px;
+}
+.sec3{
+    flex-wrap: wrap;
+}
+.bu1{
+    padding-top: 0px;
+}
+.v3{
+    position: absolute;
+    left: 450px;
+    top: 400px;
+}
+.v5{
+    position: absolute;
+    left: 20px;
+}
+.cir{
+    flex-wrap: wrap;
+}
+.email{
+    position: relative;
+    left: 100px;
+}
+.button{
+    position: relative;
+    left: 60px;
+}
+.b6, .bb3{
+    display: none;
+}
+.foot{
+    flex-wrap: wrap;
+}
+.tim{
+   padding-left: 30px;
+}
+
+}
 @media (max-width: 576px){
+    *{
+      overflow-x: hidden;
+    }
 ul{
     flex-direction: column;
 }
@@ -505,16 +601,22 @@ button{
 .cpi{
     flex-direction: column;
  position: relative;
- right: 30px;
+
     
+}
+.cpi1, .cpi2{
+    margin-left: 150px;
 }
 .cpi2{
     position: relative;
     bottom: 70px;
 }
+
 .cpi3{
     position: relative;
     bottom: 50px;
+    right: 100px;
+   
 }
 .sec2{
     flex-direction: column;
@@ -530,6 +632,16 @@ button{
   position: relative;
   right: 50px;
   top: 100px;
+}
+.par1{
+padding-top: 0px;
+}
+.par2{
+    margin-top: 100px;
+    margin-right: 100px;
+}
+.bu1{
+    margin-top: 100px;
 }
 .par2{
     text-align: center;

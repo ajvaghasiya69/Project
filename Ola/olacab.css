@@ -1,0 +1,557 @@
+  .AA{
+            background-color: black;
+           position: fixed;
+            height: 70px;
+            width: 100%;
+            display: flex;
+           margin-top: -10px;
+            
+        }
+        *{
+  
+        }
+        .A{
+           
+            margin-top: 10px;
+            margin-left: 20px;
+            
+            
+            display: inline-block;
+            
+        }
+        .BBB{
+            margin: 0 80px;
+            padding-top: 30px;
+            font-size: 15px;
+            color: white;
+        }
+        .C{
+            
+            padding-top: 30px;
+            font-size: 15px;
+            color: white;
+            margin-left: 500px;
+           
+        }
+        .h3left{
+            margin-right: 220px;
+        }
+        .gk{
+            align-items: center;
+            padding-left: 220px;        }
+        .ak{
+            text-align: center;
+            font-size: 50px;
+            text-shadow: 1pt 1pt green;
+          
+          
+            
+        }
+        .av{
+           background-color: black;
+           width: 100%;
+           height: 1300px;
+          
+            
+        }
+        .aj{
+           padding-left: 250px;
+           padding-top: 200px;
+            font-size: 50px;
+            color: white;
+            text-shadow: 2px 2px green;
+          
+            
+        }
+        .aa{
+           padding-left: 250px;
+            
+        }
+        .ar{
+            padding-left: 250px;
+            color: white;
+            font-size: x-large;
+            display: flex;
+        }
+        .AAA{
+            padding-left: 250px;
+            color: green;
+            font-size: xx-large;
+        }
+        .h1{
+            padding-left: 200px;
+            color: white;
+            font-size: x-large;
+            border: 1px solid silver;
+            display: block;
+        }
+        .ak{
+            padding-left: 10px;
+        }
+        .j{
+            font-size: x-large;
+            color: green;
+            font-weight: 700;
+            padding-left: 400px;
+            padding-top: 50px;
+        }
+        .j:hover{
+            color: black;
+        }
+        .e{ 
+            height: 300px;
+            padding-left: 200px;
+            margin-right: 400px;
+            margin-left: 200px;
+            background-image: url(../Ola/image/ola-futurefactory.png);
+           background-size: 500px;
+           background-repeat: no-repeat;
+           background-color: silver;
+          width: 50%;
+            
+            
+        }
+        
+        .i{
+            height: 300px;
+            padding-left: 200px;
+            margin-right: 400px;
+            margin-left: 200px;
+            background-image: url(../Ola/image/battery-innovation-center.png);
+            background-size: 500px;
+           background-repeat: no-repeat ;
+           background-color: silver;
+            width: 50%;
+        }
+        .B{
+            font-size: x-large;
+            color: green;
+            font-weight: 700;
+            padding-left: 400px;
+            padding-top: 50px;
+           
+        }
+        .B:hover{
+            color: black;
+        }
+        .r{
+            height: 300px;
+            margin-top: 25px;
+            
+            padding-left: 200px;
+            margin-right: 400px;
+            margin-left: 200px;
+            background-image: url(../Ola/image/indis\ first\ in\ cell.png);
+           background-size: 500px;
+           background-repeat: no-repeat;
+           background-color: silver;
+         width: 50%;
+            
+        }
+        .rr{
+            font-size: x-large;
+            color: green;
+            font-weight: 700;
+            padding-left: 400px;
+            padding-top: 50px;
+           
+        }
+        .rr:hover{
+            color: black;
+        }
+        .u{
+            margin-top: 100px;
+            background-color: black;
+            width: 100%;
+            height: 1200px;
+        }
+        .uu{
+            margin-left: 200px;
+            padding-left: 200px;
+           padding-top: 200px;
+            font-size: 50px;
+            color: white;
+            text-shadow: 2px 2px green;
+        }
+        .uuu{
+            margin-top: 100px;
+            
+            
+        }
+        .z{
+            margin-top: 100px;
+            
+        }
+        .w{
+            padding-left: 800px;
+           padding-top: 50px;
+            font-size: 50px;
+            color: black;
+            text-shadow: 2px 2px green;
+            
+        }
+        .k{
+            margin-top: 30px;
+            padding-left: 200px;
+            font-size: xx-large;
+            font-weight: 800;
+            text-shadow: 2px 2px green;
+            
+        }
+        .l{
+            margin-left: 150px;
+           margin-top: 30px;
+            font-size: larger;
+            
+        }
+        .m{
+            color: black;
+            opacity: 0.5;
+            padding-left: 200px;
+            
+    }
+        .h{
+           display: flex;
+           margin-left: 100px;
+            
+        }
+        .g{
+           display: grid;
+           margin-right: 400px;
+           margin-top: 30px;
+            
+        }
+       
+        .x{
+           margin-top: 30px;
+           
+            
+        }
+        .f{
+           padding-left: 200px;
+          
+            
+        }
+        .jj{
+           padding-left: 400px;
+           padding-top: 20px;
+        }
+        .q{
+           padding-left: 400px;
+           padding-top: 10px;
+            }
+        .rrr{
+           padding-left: 400px;
+           padding-top: 10px;
+            }
+        .qqq{
+           margin-left: 250px;
+       }
+       .ee{
+          
+          font-size: x-large;
+          font-weight: 800;
+        }
+      .nn{
+          font-size: medium;
+          opacity: 0.5;
+        }
+      .mmm{
+            margin-left: 450px;
+        }
+      .tt{
+          
+          font-size:xx-large;
+          font-weight: 800;
+        }
+      .oo{
+          font-size: x-large;
+          font-weight: 800;
+        }
+      .nn{
+          opacity: 0.5;
+      }
+      .eeee{
+          display: flex;
+          margin-left: 310px;
+       }
+       .rrrrr{
+          display: flex;
+          margin-left: 340px;
+          font-size: xx-large;
+          font-weight: 600;
+       }
+       .fff{
+          display: flex;
+          margin-left: 300px;
+          font-size: x-large;
+          font-weight: 600;
+          margin-top: 15px;
+       }
+       .ooo{
+          display: flex;
+          margin-left: 300px;
+          font-size: medium;
+          opacity: 0.5;
+          margin-top: 15px;
+       }
+       .wwww{
+        display: flex;
+        margin-left: 220px;
+        font-size: 20px;
+        font-weight: 400;
+        margin-top: 20px;
+       }
+       .kkk{
+       opacity: 0.8;
+       }
+       .aaa{
+        font-weight: bolder;
+       }
+        .nnnnn{
+       opacity: 0.8;
+       }
+       .uuuuu{
+       background-color: paleturquoise;
+       opacity: 0.3;
+       height: 800px;
+       }
+       .lll{
+        margin-top: 50px;
+          margin-left: 220px;
+          font-size: 50px;
+          text-shadow: 1px 1px green;
+       }
+       .eeeeee{
+            margin-top: 100px;
+            background-color: rgb(235, 233, 233);
+            width: 100%;
+            height: 600px;
+        }
+        .eeeeeee{
+            padding-left: 200px;
+           padding-top: 100px;
+            font-size: 50px;
+            color: black;
+            text-shadow: 2px 2px green;
+        }
+        .vvv{
+        display: flex;
+        margin-left: 200px ;
+        margin-top: 40px;
+       }
+       .sss{
+        display: flex;
+        font-size: x-large;
+        margin-left: 200px ;
+        margin-top: 20px;
+        font-weight: 800;
+       }
+       .uuu{
+        display: flex;
+        color: green;
+        font-size: medium;
+        font-weight: bolder;
+        margin-top: 5px;
+        margin-left: 200px;
+       }
+       .mmmmm{
+       margin-left: 200px;
+       font-size: 50px;
+       }
+       .ddd{
+       margin-left: 200px;
+       
+       }
+       .y{
+        background-color: rgb(235, 233, 233);
+            
+            width: 100%;
+            height: 300px;
+            margin-bottom: -20px;
+        }
+       .yy{
+        font-size: 30px;
+        margin-top: 50px;
+        padding-top: 80px;
+        padding-left: 150px;
+        display: flex;
+       }
+       .box{
+        width: 500px;
+        margin-left: 150px;
+       
+    }
+    .icon1{
+        
+        font-size: 50px;
+        
+    }
+    .icon2{
+       
+        font-size: 50px;
+    }
+    .icon3{
+       
+        font-size: 50px;
+    }
+    .hh{
+       
+       list-style: none;
+       margin-left: 60px;
+   }
+   .dddd{
+       
+       display: flex;
+       margin-left: 300px;
+       margin-top: -150px;
+
+   }
+   .zzz{
+       
+       display: flex;
+       margin-left: 1000px;
+       margin-top: -200px;
+       
+   }
+   .ggg{
+       
+       font-weight: bold;
+      padding-top: -50px;
+   }
+   .aks{
+       border: 1px solid white;
+       height: 50px;
+       width: 300px;
+       background-color: white;
+       color: black;
+       margin-top: -83px;
+       margin-left: 220px;
+       display: flex;
+   }
+   .nk{
+       margin-top: 15px;
+       margin-left: 38px;
+       text-decoration: underline black;
+    }
+   .pk{
+       margin-top: 15px;
+       margin-left: 38px;
+       }
+   .dk{
+       margin-top: 15px;
+       margin-left: 38px;
+    }
+   .fo{
+       height: 100px;
+       width: 900px;
+       background-color: #f2f4f6;
+       margin-left: 220px;
+       display: flex;
+    }
+   .lo{
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+   .ds{
+    padding-left: 200px;
+    margin-top: -55px;
+    margin-left: 100px;
+}
+   .bu{
+    margin-top: -55px;
+    margin-left: 590px; 
+   font-size: xx-large;
+    font-weight: bolder;
+ }
+   .mi{
+   background-image: url(../Ola/image/Screenshot\ \(93\).png); 
+   background-repeat: no-repeat;
+   position: center;
+   background-size: cover;
+   height: 450px; 
+}
+  .i2{
+     margin-left: 140px;       
+}
+  .i3{
+   margin-left: 120px;       
+}
+  .n1{
+   margin-left: 230px;       
+}
+  .n2{
+   margin-left: 190px;       
+}
+  .s1{
+   margin-left: 170px;       
+}
+  .s2{
+margin-left: 150px;       
+}
+  .ss1{
+margin-left: 160px;       
+}
+  .ss2{
+   margin-left: 160px;       
+}
+  .ii1{
+margin-left: 30px;       
+}
+  .ii2{
+   margin-left: 30px;       
+}
+  .ii3{
+   margin-left: 30px;       
+}
+  .si1{
+      margin-left: 30px;       
+}
+  .si2{
+    margin-left: 80px;       
+}
+  .si3{
+      margin-left: 30px;       
+}
+  .ssi1{
+       margin-left: 140px;       
+}
+  .ssi2{
+     margin-left: 130px;       
+}
+  .ssi3{
+    margin-left: 130px;       
+}
+  .bar{
+       font-size: 20px;
+       color: white;
+       margin-top: 30px;
+       margin-left: 20px;
+    }
+   .ax{
+       margin-left: 200px;
+      font-size: 20px;
+      text-decoration: underline 3px solid green;
+       }
+   .nx{
+        
+      }
+      .c1{
+        color: white;
+        background-color: rgba(255, 255, 255, 0.17);
+        line-height: 16px;
+        padding: 14px 12px;
+        
+      }
+      .c2{
+        color: #000000;
+        background-color: #FFFFFF;
+        line-height: 16px;
+        padding: 14px 12px;
+        
+      }
+      .v1{
+        margin-left: 70px;
+        
+      }
