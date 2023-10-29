@@ -4,7 +4,7 @@
             box-sizing: border-box;
         }
         .sec1{
-            background-image: url(../Project/Sushifinalpic/bg1.png);
+            background-image: url(../sushi/Sushifinalpic/bg1.png);
             background-size: cover;
         }
         .nav{
@@ -149,6 +149,9 @@ padding-top: 70px;
             width: 360px;
             border-radius: 180px;
             
+        }
+        .mast{
+            margin-top: 50px;
         }
         .title{
             font-size: 75px;

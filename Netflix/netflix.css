@@ -4,7 +4,7 @@
         box-sizing: border-box;
       }
         .container{
-         background: url(../image/netflix\ img.jpg) rgba(38,38, 38, 0.9);
+         background: url(../Netflix/image/netflix\ img.jpg) rgba(38,38, 38, 0.9);
          height: 700px;
          width: 100%;
         background-blend-mode: darken;
