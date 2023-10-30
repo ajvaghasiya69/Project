@@ -597,6 +597,9 @@ button{
     margin-bottom: 20px;
     margin-left: 20px;
 }
+ul li{
+  
+}
 
 .cpi{
     flex-direction: column;
