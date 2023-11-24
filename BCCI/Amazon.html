@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BCCI-Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="../BCCI/Image/bcci-logo.svg" type="image/x-icon">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .header-part1{
+            background-color: #0f235a;
+            width: 100%;
+            height: 65px;
+            display: flex;
+        }
+        .header-left{
+            display: flex;
+            width: 65%;
+        }
+        .logo{
+           height: 50px; 
+           padding: 5px 50px;
+           margin-top: 8px;
+        }
+        .range{
+            color: white;
+            font-weight: bolder;
+            margin-left: 20px;
+            margin-top: 25px;
+            font-size: 20px;
+        }
+        .range:hover{
+            border-bottom: 5px solid #c65142;
+        }
+        .icon{
+            border-left: 1px solid rgba(255,255,255,.1);
+            
+        /* outline: 1px solid #fff; */
+            padding: 20px;
+            padding-top: 15px;
+        }
+        .icon2{
+            border-right: 1px solid rgba(255,255,255,.1);
+            
+        /* outline: 1px solid #fff; */
+            padding: 20px;
+        }
+
+        .header-right{
+            display: flex;
+        }
+        .language{
+            color: white;
+            padding: 20px 10px 25px 25px;
+        }
+        .arrow{
+           margin-top: 15px;
+        }
+        form{
+            margin-left: 25%;
+           
+        }
+        .form1{
+            width: 500px;
+            height: 40px;
+            border: 1px solid gray;
+            border-radius: 20px;
+            padding-left: 20px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-size: 17px;
+        }
+        select{
+            height: 40px;
+            width: 100px;
+            border: 1px solid gray;
+            border-radius: 20px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        option:hover{
+            background-color: blue;
+            height: 40px;
+           
+        }
+        .button{
+            background-color: #c65142;
+            height: 40px;
+            width: 100px;
+            border: 1px solid #c65142 ;
+            border-radius: 20px;
+            color: white;
+        }
+        .header-part3{
+            display: flex;
+            border: 1px solid gray;
+            
+        }
+        .li{
+            margin: 15px;
+            padding-left: 20px;
+            color: gray;
+            border-left: 1px solid gray;
+            
+        }
+        .main-image{
+            background-color: silver;
+            border-radius: 20px;
+            width: 100%;
+        padding: 30px ;
+           
+        }
+        .video{
+         background-image: url(../BCCI/Image/videobg.png);
+         background-size: cover;
+         height: 400px;
+        }
+        h2, .title{
+            color: white;
+            font-weight: bolder;
+            display: inline-flex;
+            padding-left: 50px;
+            padding-top: 25px;
+            font-family: sans-serif;
+            
+        }
+        .title{
+            margin-left: 80px;
+        }
+        .title p{
+            margin-left: 30px;
+            color: gray;
+            padding-bottom: 5px;
+        }
+        .title p:hover{
+            border-bottom: 3px solid #c65142;  
+        }
+        .box1{
+            width: 300px;
+            height: 450px;
+            background-color: #154c79;
+            border-radius: 20px;
+            margin-top: 50px;
+          
+        }
+        .publicity{
+           
+           border-radius: 20px;
+           width: 300px;
+           height: 300px;
+        }
+        .box1 p, .box1 h3{
+            color: rgba(255, 255, 255, 0.8);
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+    hr{
+            margin-top: 10px;
+        }
+        i{
+            font-size: 25px;
+            margin-top: 10px;
+            margin-left: 10px;
+            color: rgba(255, 255, 255, 0.8);
+        }
+        span{
+            margin-left: 20px;
+            margin-right: 50px;
+            color: rgba(255, 255, 255, 0.8);
+            font-weight: 600;
+        }
+        .box{
+            display: flex;
+            justify-content: space-around;
+        }
+        .h2{
+            color: black;
+            margin-top: 100px;
+            padding-top: 100px;
+            font-size: 40px;
+            padding-left: 20px;
+        }
+        .part{
+            display: flex;
+            margin-top: 20px;
+            height: 600px;
+         
+        }
+        .part1{
+            width: 800px;
+            height: 600px;
+            border-radius: 20px;
+            margin-left: 10px;
+      
+        }
+        .part2{
+        
+            margin-left: 30px;
+            
+       
+        }
+        .subpart2{
+            display: flex;
+            margin-top: 20px;
+        }
+        .smallimg{
+            width: 190px;
+            height: 120px;
+            border-radius: 20px;
+        }
+        .part2 p{
+            color: gray;
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+        .sub-part2 p{
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+        .sub-part2 h3{
+            margin-left: 10px;
+        }
+      .bhag{
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+        padding-top: 100px;
+        gap: 100px;
+      }
+      .bhag1{
+        padding-top: 50px;
+      }
+      h1+p{
+        color: rgba(0, 0, 0, 0.8);
+        font-size: 22px;
+        padding-top: 25px;
+      }
+      .par{
+        margin-top: 70px;
+        display: flex;
+      
+      }
+      .im2{
+        margin-top: 50px;
+        margin-left: 30px;
+      }
+      .im2 p{
+        color: #0f235a;
+        margin-top: 30px;
+      padding-left: 120px;
+        line-height: 30px;
+        font-size: 20px;
+      }
+      .batan{
+        background-color: #c65142;
+        color: white;
+        border-radius: 10px;
+        font-size: 17px;
+        width: 140px;
+        height: 40px;
+        border: none;
+        margin-top: 30px;
+        margin-left: 120px;
+      }
+      .honor{
+        background-image: url(../BCCI/Image/videobg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 70px;
+        height: 400px;
+      }
+      .ho{
+        padding-top: 50px;
+        font-size: 40px;
+        padding-left: 30px;
+      }
+      .awarded{
+        display: flex;
+        justify-content: space-around;
+      }
+      .awrd1{
+        height: 370px;
+        width: 300px;
+        border-radius: 20px;
+        background-color: #052c65;
+        margin-top: 30px;
+      }
+      .year{
+        font-size: 100px;
+        font-weight: bolder;
+        color: gray;
+        text-align: center;
+      
+      }
+      .cup{
+        margin-left: 75px;
+      
+      }
+      h6{
+        color: white;
+        font-size: 20px;
+        font-weight: 200;
+        margin-top: 5px;
+        margin-left: 60px;
+      }
+      .gallary{
+        background-image: url(../BCCI/Image/videobg.png);
+        height: 500px;
+        margin-top: 150px;
+        background-repeat: no-repeat;
+        margin-left: 10px;
+        
+      }
+      .fram{
+        display: flex;
+        justify-content: space-around;
+      }
+      .frm1{
+        width: 400px;
+        height: 200px;
+    margin-top: 10px;
+        border-radius: 20px;
+      }
+      .hq{
+        padding-top: 20px;
+      }
+      .advertise{
+        margin-top: 70px;
+        width: 100%;
+        height: 240px;
+        background-color: black;
+        padding-top: 20px;
+      }
+      .subad{
+        display: flex;
+        justify-content: space-around;
+       border: 1px solid #d2a66c;
+       border-radius: 20px;
+       margin: 20px;
+       
+ 
+      }
+      .s1{
+        color: #d2a66c;
+        margin-top: 40px;
+      }
+      .s1 p{
+        font-size: 15px;
+        text-align: center;
+      }
+      .photo{
+        margin-top: 30px;
+        margin-bottom:10px;
+      }
+   
+   
+        
+  
+      
+      
+    </style>
+</head>
+<body>
+    <header>
+       <div class="header-part1">
+     <div class="header-left">
+        <img class="logo" src="../BCCI/Image/bcci-logo.svg" alt="">
+        <p class="range">International</p>
+        <p class="range">Domestic</p>
+
+     </div>
+     <div class="header-right">
+<img class="icon" src="../BCCI/Image/search-icon.svg" alt="" height="65px">
+<img class="icon" src="../BCCI/Image/wcw.png" alt="">
+<img class="icon" src="../BCCI/Image/ipl-logo.svg" alt="">
+<img class="icon icon2" src="../BCCI/Image/wpl-logo.svg" alt="">
+
+    <p class="language">EN</p>
+    
+    <img class="arrow" src="../BCCI/Image/down-arrow.png" height="20px" >
+
+
+
+
+     </div>
+       </div>
+    <div class="header-part2">
+        <form action="">
+            <input class="form1" type="text" placeholder="Search">
+        
+        <select name="" id="">
+            <option value="">All</option>
+            <option value="">Videos</option>
+            <option value="">News</option>
+        
+        </select>
+        <button class="button">Search</button>
+    </form>
+    </div> 
+    <div class="header-part3">
+        <p class="li">MEN</p>
+        <P class="li">WOMEN</P>
+        <P class="li">Videos</P>
+        <p class="li">Fixtures & Results</p>
+        <p class="li">News</p>
+        <p class="li">Serles And Tournament</p>
+        <p class="li">Archive</p>
+    </div>  
+    </header>
+    <img class="main-image" src="../BCCI/Image/main2.jpg" alt="" height="500px">
+    <div class="video">
+       <h2>Videos</h2>
+       <div class="title">
+        <p>Letest</p>
+        <p>Highlight</p>
+        <p>Featured</p>
+        <p>Interview</p>
+        <p>Press Conference</p>
+       </div>
+       <div class="box">
+        <div class="box1">
+            <img class="publicity" src="../BCCI/Image/panjabvsbaroda.jpg" alt="">
+            <p>6th Nov, 2023</p>
+            <h3>SMAT 2023 Final, Punjab vs Baroda: Match Hightlight</h3>
+         <hr>
+         <i class="fa-regular fa-eye"></i>
+         <span>2.7 k &nbsp;13:28 mins</span>
+         <i class="fa-solid fa-share"></i>
+            
+        </div>
+        <div class="box1">
+            <img class="publicity" src="../BCCI/Image/pnb2.jpg" alt="">
+            <p>6th Nov, 2023</p>
+            <h3>SMAT 2023 Final: Arshdeep Punjab's charge wit...</h3>
+         <hr>
+         <i class="fa-regular fa-eye"></i>
+         <span>665 &nbsp;01:37 mins</span>
+         <i class="fa-solid fa-share"></i>
+            
+        </div>
+        <div class="box1">
+            <img class="publicity" src="../BCCI/Image/pnb3.jpg" alt="">
+            <p>6th Nov, 2023</p>
+            <h3>SMAT 2023 Final: Triple Treat: Arshdeer match in Punjab's...</h3>
+         <hr>
+         <i class="fa-regular fa-eye"></i>
+         <span>466 &nbsp;01:54 mins</span>
+         <i class="fa-solid fa-share"></i>
+            
+        </div>
+        <div class="box1">
+            <img class="publicity" src="../BCCI/Image/pnb4.jpg" alt="">
+            <p>6th Nov, 2023</p>
+            <h3>SMAT 2023 Final, Punjab vs Baroda: Match Presentation</h3>
+         <hr>
+         <i class="fa-regular fa-eye"></i>
+         <span>369 &nbsp;09:18 mins</span>
+         <i class="fa-solid fa-share"></i>
+            
+        </div>
+       </div>
+        
+    </div>
+    <h2 class="h2">Latest News</h2>
+    <div class="part">
+        <div class="part1">
+            <img class="part1" src="../BCCI/Image/1698752559_Web_BannerDesign.webp" alt="">
+        </div>
+        <div class="part2">
+            <div class="subpart2">
+                <div class="sub-part1"><img class="smallimg" src="../BCCI/Image/1695218816_BCCIxSBI.webp" alt=""></div>
+            <div class="sub-part2">
+                <p>20th September, 2023</p>
+                <h3>BCCI announces SBI life as Official Partner for BCCI Domestic & International Season...</h3>
+
+            </div>
+            </div>
+            <div class="subpart2">
+                <div class="sub-part1"><img class="smallimg" src="../BCCI/Image/1693571020_1691066319_1690873517_1689354026_BCCI Press Release Thumbnail.webp" alt=""></div>
+            <div class="sub-part2">
+                <p>1st September, 2023</p>
+                <h3>Board of Control for Cricket in India (BCCI) announces the release of Request for...</h3>
+
+            </div>
+            </div>
+            <div class="subpart2">
+                <div class="sub-part1"><img class="smallimg" src="../BCCI/Image/1693484849_WhatsApp Image 2023-08-31 at 5.56.22 PM.webp" alt=""></div>
+            <div class="sub-part2">
+                <p>31 Auguest, 2023</p>
+                <h3>BCCI announces the sucessful bidder for acquiring the Media Right for the BCCI...</h3>
+
+            </div>
+            </div>
+            <div class="subpart2">
+                <div class="sub-part1"><img class="smallimg" src="../BCCI/Image/1692977523_BCCIxIDFC.webp" alt=""></div>
+            <div class="sub-part2">
+                <p>15 Auguest, 2023</p>
+                <h3>IDFC First acquires title sponsorship rights for all BCCI internationl and domestic...</h3>
+
+            </div>
+        </div>
+    </div>
+</div>
+         <div class="bhag">
+            <div class="bhag1">
+                <h1>Get the Official BCCI App</h1>
+                <p>Get the latest scores on the go. Find the latest content, including <br>match highlights, press conferences and recap all at your <br>fingertips by downloading the official BCCI app.</p>
+            
+            <button style="background-color: black; border: none; border-radius: 10px; margin-top: 30px; height: 80px;">
+                <i class="fa-solid fa-play " style="color: blue; display: inline;"></i>
+                <p style="color: white; font-size: 10px;">GET IN ON</p>
+                <H5 style="color: white; font-size: 15px;">Google Play</H5>
+            </button>
+            </div>
+            <div class="bhag2">
+                <img src="../BCCI/Image/official-mob.png" alt="" height="410px">
+            </div>
+         </div> 
+         <div class="par">
+            <div class="im1">
+                <img src="../BCCI/Image/shop-img.png" alt="">
+            </div>
+        <div class="im2">
+            <img src="../BCCI/Image/shop-left-img.png" alt="">
+            <p>Show your true colors and support Indian <br>cricket team with our vibrant merchandise</p>
+            <button class="batan">Shop now</button>
+         </div>
+        </div>
+        <div class="honor">
+<h2 class="ho">Honours</h2>
+<div class="awarded">
+   <div class="awrd1">
+    <p class="year">1983</p>
+    <img class="cup" src="../BCCI/Image/1983.png" alt="">
+    <h6>ICC WORLD CUP</h6>
+
+   </div>
+
+<div class="awarded">
+    <div class="awrd1">
+     <p class="year">2000</p>
+     <img class="cup" src="../BCCI/Image/1983.png" alt="">
+     <h6>ICC WORLD CUP</h6>
+ 
+    </div>
+ </div>
+ <div class="awarded">
+    <div class="awrd1">
+     <p class="year">2007</p>
+     <img class="cup" src="../BCCI/Image/1983.png" alt="">
+     <h6>ICC WORLD CUP</h6>
+ 
+    </div>
+ </div>
+ <div class="awarded">
+    <div class="awrd1">
+     <p class="year">2009</p>
+     <img class="cup" src="../BCCI/Image/1983.png" alt="">
+     <h6>ICC WORLD CUP</h6>
+ 
+    </div>
+ </div>
+        </div>
+    </div>
+          <div class="gallary">
+            <h2 class="ho hq">Gallaries</h2>
+            <div class="fram">
+                <img class="frm1" src="../BCCI/Image/6b3c325b-f337-48af-b1d2-dbe4bfe73e11.webp" alt="">
+                <img class="frm1" src="../BCCI/Image/d30916e7-16f3-496d-9771-1ded14dd04bc.webp" alt="">
+                <img class="frm1" src="../BCCI/Image/73c95d4d-af0b-4d06-8af8-362d33ea8ef5.webp" alt="">
+            </div>
+             <div class="fram">
+                <img class="frm1" src="../BCCI/Image/f3d7a4d5-2606-43f0-bc66-a58890166a4d.webp" alt="">
+                <img class="frm1" src="../BCCI/Image/490e97b0-328d-4506-9b8f-e896a0d7ebc0.webp" alt="">
+                <img class="frm1" src="../BCCI/Image/1af205fe-958c-4f8d-9431-db583cbf135c.webp" alt="">
+            </div>
+          </div>  
+       
+   <div class="advertise">
+    <div class="subad">
+        <div class="s1">
+            <p>TITLE SPONSOR</p>
+            <img class="photo" src="../BCCI/Image/spsr-idfc-first.svg" alt="">
+        </div>
+        <div class="s1">
+            <p>LEAD SPONSOR</p>
+            <img class="photo" src="../BCCI/Image/spsr-dream11.svg" alt="" width="200px">
+        </div>
+        <div class="s1">
+            <p>KIT SPONSOR</p>
+            <img class="photo" src="../BCCI/Image/spsr-addidas.svg" alt="" width="70px">
+        </div>
+        <div class="s1">
+            <p>OFFICIAL PARTNER</p>
+            <img class="photo" src="../BCCI/Image/SBI.svg" alt="" width="150px">
+        </div>
+        <div class="s1">
+            <p>BROADCASTER</p>
+            <img class="photo" src="../BCCI/Image/spsr-sports-18.svg" alt="" width="70px" style="margin-left: 25px;">
+        </div>
+        <div class="s1">
+            <p>STREAMING PARTNER</p>
+            <img class="photo" src="../BCCI/Image/spsr-jio-cinema.svg" alt="" width="70px" style="margin-left: 50px;">
+        </div>
+    </div>
+
+   </div>
+   <div class="footer"></div>
+</body>
+</html>
