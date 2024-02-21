@@ -57,3 +57,86 @@
         margin-left: 46%;
     }
 }
+@media(max-width: 576px){
+    h3+p{
+    
+      margin-left: 15%;
+      /* margin-top: 20px; */
+    
+    
+    
+    }
+    .resume{
+        margin-left: 26.5%;
+       
+    }
+    .myself{
+        width: 400px;
+        font-size: 16px;
+    }
+    .name{
+        font-size: 24px;
+        margin-top: 0px;
+    }
+    .tweet{
+        margin-left: 35%;
+    }
+    .box1{
+        flex-direction: column;
+    }
+    .box2 p{
+        margin-top: 20px;
+    }
+  .p1{
+    gap: 50px;
+  }
+  .bb1{
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+  }
+    input, textarea, .submit{
+        width: 300px;
+    }
+    .div1{
+       margin-right: 15%;
+       margin-top: -12%;
+    }
+    .div1 h6{
+        margin-left: 20%;
+    }.div1 .button{
+        margin-left: 26%;
+    }
+    .div11 .hh1{
+    margin-left: 33%;
+    }
+    .div11 .dr{
+        margin-left: 40%;
+    }
+    .div1 .hh6,.div1 .ol{
+        margin-left: 30%;
+    }
+    .div11 .hh2{
+        margin-left: 35%;
+    }
+    .div11 .button{
+        margin-left: 41%;
+    }
+
+    .div22 img{
+       margin-left: -6%;
+       margin-top: 15px;
+    }
+    .div2 img{
+margin-left: 15%;
+    }
+    .div11 .bu{
+        margin-left: 44%;
+    }
+    .div1 .hh3{
+        margin-left: 25%;
+    }
+    .div11 .hh22{
+        margin-left: 25%;
+    }
+}

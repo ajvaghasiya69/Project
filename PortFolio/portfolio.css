@@ -28,6 +28,7 @@ ul li{
   
 
 }
+
 li a{
     color: rgba(0, 0, 0, 0.55);
     text-decoration: none;
@@ -39,6 +40,19 @@ a li{
     text-decoration: underline;
     padding-left: 10px;
 }
+
+li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.55);
+    transition: width 0.3s ease;
+}
+li a:hover::after {
+    width: 100%;
+}
+
 .footer{
     display: flex;
     justify-content: space-around;
@@ -64,6 +78,44 @@ h3+p{
 
 
 
+}
+#home h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    /* Add animation */
+    animation: fadeInDown 1s ease-out;
+}
+
+#home .h2 {
+    font-size: 35px;
+    line-height: 1.5;
+    margin-bottom: 0px;
+    /* Add animation */
+    animation: slideInLeft 1s ease-out;
+}
+
+/* Keyframe animations */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 #home h1{
     font-size: 60px;
@@ -182,6 +234,7 @@ i{
     color: blue;
     font-size: 35px;
     font-weight: 700;
+    margin-top: 12px;
 }
 .flex{
     display: flex;
@@ -278,6 +331,9 @@ margin-top: 20px;
 .projectsec{
     background-color: #f8f9fa;
     padding-bottom: 50px;
+}
+.button:hover {
+    transform: scale(1.2);
 }
 h4{
     font-size: 60px;
