@@ -4,9 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akshay's Portfolio</title>
-   <script>
+   <script src="../../JQuery/jquery-3.7.1.min.js">
 
    </script>
+    <script>
+        $(document).ready(function () {
+       
+          $('.btnSlideToggle').click(function () {
+             $('.mini').slideToggle() 
+          });
+          $('.mini').slideUp()
+          
+        });
+      </script>
     <link rel="stylesheet" href="portfolio.css">
     <link rel="stylesheet" href="portmedia.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jakarta+Sans:wght@400;700&display=swap">
@@ -25,15 +35,29 @@
         </div>
         <div class="right">
             
+             <div class="fullnav">
                 <ul class="ul">
-                     <li><a href="#home">Home</a></li>
-                     <li><a href="#resume">Resume</a></li>
-                     <li><a href="#project1 projectbtn">Project</a></li>
-                     <li><a href="#contect1">Contect</a></li>
-               
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#project1 projectbtn">Project</a></li>
+                    <li><a href="#contect1">Contect</a></li>
               
-              
-              </ul>
+             
+             
+             </ul>
+             </div>
+          <div class="mininav">
+            <button class="btnSlideToggle"><i class="fa-solid fa-bars bbar"></i></button>
+            <ul class="ul mini">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#resume">Resume</a></li>
+              <li><a href="#project1 projectbtn">Project</a></li>
+              <li><a href="#contect1">Contect</a></li>
+        
+       
+       
+       </ul>
+          </div>
              
               </div>
                
@@ -44,7 +68,7 @@
     <div id="home" class="page-section">
         <h3>Design + Devlopment</h3>
     <p class="h2">I can help your business to</p>
-    <h1>Get online and grow fast </h1>
+    <h1 >Get online and grow fast </h1>
     <div class="box">
         <img src="../MyPortfolio/image/ak.jpg" alt="">
     </div>
@@ -124,7 +148,7 @@
     </div>
     <!-- Project -->
     <div class="projectsec page-section" id="project1 projectbtn">
-        <h4>Projects
+        <h4 class="wd">Projects
         </h4>
         <div class="project1">
             <div class="div1">
@@ -149,7 +173,7 @@
             <div class="div1">
                 <h6>Netflix</h6>
                 <p>In this Amazon clone I am using HTML and CSS without Responsive Sight.in this clone I tried to best making  as similar to orignal websight.in this i Shown Cart,Language changing,Location Etc.</p>
-         <a href="../Netflix/02Netflix.html">  <button class="button">Netflix</button></a>
+         <a href="../NewNetflix/Netflix.html">  <button class="button">Netflix</button></a>
             </div>
           <div class="div2"> <img src="../MyPortfolio/image/Screenshot (120).png" alt="">
           </div>

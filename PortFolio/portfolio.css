@@ -25,6 +25,7 @@ ul li{
     color: rgba(0, 0, 0, 0.55);
     font-size: 18px;
    font-weight: 600;
+   margin-top: 5px;
   
 
 }
@@ -34,12 +35,6 @@ li a{
     text-decoration: none;
 }
 
-a li{
-    list-style-type: none;
-    display: inline-flex;
-    text-decoration: underline;
-    padding-left: 10px;
-}
 
 li a::after {
     content: '';
@@ -51,6 +46,15 @@ li a::after {
 }
 li a:hover::after {
     width: 100%;
+}
+.mininav{
+    display: none;
+}
+.bbar{
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.55);
+    padding: 2px;
+    border-radius: 2px;
 }
 
 .footer{
@@ -126,6 +130,25 @@ background: linear-gradient(to right, blue, purple);
 text-align: center;
 /* margin-top: 20px; */
 }
+
+/* .wd {
+    display: inline-block;
+    width: 100%;
+  
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 7s steps(35);
+}
+
+@keyframes typing {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 100%;
+    }
+} */
 .resume, .project{
     width: 120px;
     height: 60px;
@@ -512,4 +535,10 @@ p+input{
   
   .page-section:target {
     display: block;
+  }
+  .part2 li{
+    list-style-type: none;
+    display: inline-flex;
+    text-decoration: underline;
+    padding-left: 10px;
   }

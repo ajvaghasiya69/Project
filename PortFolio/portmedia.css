@@ -13,6 +13,9 @@
     }
 }
 @media(max-width: 765px){
+    /* .nav{
+        padding-bottom: 75px;
+    } */
     .resume{
         margin-left: 32%;
     }
@@ -23,6 +26,27 @@
         display: flex;
        flex-direction: column-reverse;
        
+    }
+    .mininav{
+        display: block;
+        position: relative;
+       
+      
+    }
+    .mini li{
+       display: block;
+      
+       
+      
+    }
+   
+    .mininav ul{
+        position: absolute;
+        right: 455px;
+    }
+  
+    .fullnav{
+        display: none;
     }
     .div2 img{
         margin-left: 26%;
@@ -58,6 +82,25 @@
     }
 }
 @media(max-width: 576px){
+    .mininav{
+        display: block;
+        position: relative;
+      
+    }
+    .mini li{
+       display: block;
+      
+       
+      
+    }
+    .mininav ul{
+        position: absolute;
+        right: 355px;
+    }
+  
+    .fullnav{
+        display: none;
+    }
     h3+p{
     
       margin-left: 15%;
